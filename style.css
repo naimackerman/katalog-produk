@@ -187,11 +187,13 @@ body {
     float: left;
     margin: auto;
     height: auto;
+    width: 60%;
 }
 
 .detail {
-    float: right;
+    float: left;
     margin: auto;
+    margin-left: 5%;
     background: #f8f8f8;
     height: auto;
     padding: 10px;
@@ -229,9 +231,10 @@ td {
     color: black;
 }
 
-input, textarea {
+.alamat input, textarea {
     border: 1px solid;
     border-radius: 0%;
+    width: 100%;
 }
 
 .pay-logo {
@@ -251,8 +254,12 @@ input, textarea {
 }
 
 .isi {
-    width: 70%;
     float: left;
+    width: auto;
+}
+
+.isi hr {
+    width: 200%;
 }
 
 .tab-kiri {
@@ -260,7 +267,6 @@ input, textarea {
 }
 
 .btnSubmit {
-    margin-left: 98px;
-    margin-top: 15px;
-    padding: 8px 16px;
+    margin: 20px 0px;
+    padding: 12px 0px;
 }
