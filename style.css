@@ -94,11 +94,11 @@ body {
     float: left;
     margin: auto;
     background: #f8f8f8;
-    height: 797px;
+    height: 100%;
 }
 
 .fill {
-    padding: 20px 100px;
+    padding: 5% 20%;
 }
 
 .desc p, h3 {
@@ -126,7 +126,7 @@ body {
 }
 
 .btnBuy {
-    padding: 14px 100px;
+    padding: 14px 25%;
     font-weight: bold;
     background-color: #f8f8f8;
 }
